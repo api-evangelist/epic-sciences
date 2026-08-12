@@ -1,0 +1,48 @@
+generated: '2026-08-12'
+method: probed
+source: live probes of https://www.epicsciences.com/.well-known/*
+host: https://www.epicsciences.com
+result: none
+note: >-
+  Recorded absence. No /.well-known/ document is served on the Epic Sciences
+  domain. Every path returns HTTP 301 to https://www.awaji-musicisland.com/, an
+  unrelated third-party site — the redirect is applied site-wide, not per path,
+  so these are not per-document 404s but a blanket off-domain redirect. Nothing
+  returned a 200 carrying a real document, so no WellKnown or SecurityTxt pointer
+  is emitted in apis.yml: the pointer would assert that the provider serves this
+  surface, and it does not.
+documents:
+- path: /.well-known/security.txt
+  status: 301
+  file: null
+- path: /.well-known/openid-configuration
+  status: 301
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  file: null
+- path: /.well-known/api-catalog
+  status: 301
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 301
+  file: null
+- path: /.well-known/agent-card.json
+  status: 301
+  file: null
+- path: /.well-known/agent.json
+  status: 301
+  file: null
+also_probed:
+- path: /openapi.json
+  status: 301
+- path: /swagger.json
+  status: 301
+- path: /llms.txt
+  status: 301
+- path: /api
+  status: 301
+- path: /robots.txt
+  status: 301
+- path: /sitemap.xml
+  status: 301
