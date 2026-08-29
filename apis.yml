@@ -60,7 +60,7 @@ common:
 - type: DomainSecurity
   url: security/epic-sciences-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/epic-sciences_stock/
+  url: https://epicsciences.com
 x-enrichment:
   date: '2026-08-12'
   status: minimal
