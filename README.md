@@ -64,5 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Epic Sciences is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/epic-sciences_stock/
+Epic Sciences is a San Diego, California clinical diagnostics company founded in 2008 that develops blood-based "liquid biopsy" tests for oncology. Its platform, licensed from the Peter Kuhn laboratory at Scripps Research, isolates and characterizes rare circulating tumor cells (CTCs) from whole blood using specialized assays and digital pathology algorithms, and is paired with circulating tumor DNA (ctDNA) sequencing to inform treatment selection and track how a tumor evolves. Its lead product, DefineMBC, is a comprehensive blood biopsy for metastatic breast cancer whose 56-gene ctDNA panel received Medicare coverage in April 2023. The company also runs its platform as a service for pharmaceutical partners measuring outcomes in clinical trials, and in 2020 partnered with Predicine to combine CTC and ctDNA analysis in a single offering. Epic Sciences is privately held and has raised roughly $204M across seven rounds through a Series G in April 2023. It is a laboratory diagnostics provider, not a software vendor, and publishes no public API, developer program, SDK or machine-readable specification.
+
+**Areas:** Company · Healthcare · Diagnostics · Oncology · Life Sciences · Biotechnology · Laboratory · Precision Medicine
+
+## Epic Sciences on APIs.io
+
+Everything profiled for Epic Sciences is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/epic-sciences/](https://apis.io/providers/epic-sciences/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Epic Sciences Domain Security](https://apis.io/security/epic-sciences/epic-sciences-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://epicsciences.com)
+
+## API Evangelist rating
+
+**Kin Score 3.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/epic-sciences/](https://apis.io/providers/epic-sciences/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Epic Sciences: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/epic-sciences/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
